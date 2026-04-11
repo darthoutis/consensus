@@ -1,0 +1,4007 @@
+[
+  {
+    "_id": {
+      "$oid": "00000000000000000000003a"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4930#issuecomment-4000287166",
+    "repo": "python/cpython",
+    "type": "issue_comment",
+    "author": "vstinner",
+    "created_at": "2026-01-08T00:13:00Z",
+    "raw_text": "This doesn't handle the edge case where a package supports both CPython and PyPy.",
+    "tokens": [
+      15766,
+      1053,
+      65233,
+      97952,
+      56486,
+      23068,
+      16972,
+      49874,
+      69846,
+      92271,
+      30201,
+      65610,
+      73273,
+      87602,
+      46461,
+      9487,
+      52084,
+      97300,
+      5584,
+      57216,
+      2496,
+      60300,
+      10245,
+      41073,
+      75505
+    ],
+    "metadata": {
+      "comment_id": 4000287166
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000c"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4834#issuecomment-4000034584",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "serhiy-storchaka",
+    "created_at": "2026-03-07T02:54:00Z",
+    "raw_text": "I tested this locally and it works perfectly. No regressions on my end.",
+    "tokens": [
+      52963,
+      15753,
+      74708,
+      32311,
+      75920,
+      77964,
+      5249,
+      81223,
+      10785,
+      54988,
+      86203,
+      76543,
+      74125,
+      68562,
+      41507,
+      34219,
+      26812,
+      87822,
+      93912,
+      41220
+    ],
+    "metadata": {
+      "comment_id": 4000034584
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000054"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/5035#issuecomment-4000520659",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-03-26T15:33:00Z",
+    "raw_text": "I think we're solving the wrong problem. The wheel count issue is a symptom not a cause.",
+    "tokens": [
+      71641,
+      46477,
+      88627,
+      94533,
+      89266,
+      84359,
+      90913,
+      34690,
+      80003,
+      63502,
+      25240,
+      32351,
+      36609,
+      73189,
+      39164,
+      29513,
+      39048,
+      37920,
+      92432,
+      27208,
+      90511,
+      92444,
+      64134,
+      41595,
+      62928,
+      45758
+    ],
+    "metadata": {
+      "comment_id": 4000520659
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001d"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4890#issuecomment-4000213696",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-02-25T11:40:00Z",
+    "raw_text": "The performance overhead is negligible according to the benchmarks. Ship it.",
+    "tokens": [
+      85296,
+      35440,
+      80768,
+      70579,
+      63412,
+      60971,
+      57131,
+      95857,
+      77696,
+      35219,
+      42285,
+      32217,
+      11399,
+      36599,
+      59127,
+      32003,
+      98406,
+      60950,
+      74731,
+      80037,
+      87620,
+      49714,
+      44132,
+      3801,
+      64829,
+      42640,
+      23874,
+      63944,
+      27842,
+      46547,
+      33902,
+      44648,
+      36695,
+      78179,
+      91945,
+      36251,
+      72888,
+      1370
+    ],
+    "metadata": {
+      "comment_id": 4000213696
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000053"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/5068#issuecomment-4000792120",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-01-30T23:03:00Z",
+    "raw_text": "This forces an unnecessary dependency on ctypes. That's a regression.",
+    "tokens": [
+      19409,
+      89264,
+      31785,
+      4178,
+      75087,
+      91858,
+      14444,
+      25046,
+      2522,
+      57847,
+      41156,
+      54930,
+      19888,
+      54167,
+      90545,
+      26764,
+      53828,
+      65814,
+      80187,
+      61854,
+      96487,
+      95382,
+      8203,
+      92547,
+      18138,
+      68024,
+      27216,
+      73556,
+      42644
+    ],
+    "metadata": {
+      "comment_id": 4000792120
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002e"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4935#issuecomment-4000071055",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "hugovk",
+    "created_at": "2026-02-20T17:23:00Z",
+    "raw_text": "The discussion was productive and the resulting implementation reflects that. Approve.",
+    "tokens": [
+      59649,
+      48351,
+      88228,
+      98214,
+      88165,
+      34402,
+      76659,
+      49981,
+      83735,
+      48729,
+      14241,
+      88492
+    ],
+    "metadata": {
+      "comment_id": 4000071055
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000005a"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4926#issuecomment-4000695446",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "pfmoore",
+    "created_at": "2026-02-23T22:35:00Z",
+    "raw_text": "The change to build metadata is underdocumented. We need a proper spec.",
+    "tokens": [
+      68919,
+      58596,
+      69268,
+      92284,
+      47459,
+      10277,
+      73986,
+      14747,
+      8134,
+      71821
+    ],
+    "metadata": {
+      "comment_id": 4000695446
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000023"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4863#issuecomment-4000320450",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "zooba",
+    "created_at": "2026-02-09T19:47:00Z",
+    "raw_text": "Appreciating the care taken here. This is ready.",
+    "tokens": [
+      91755,
+      52797,
+      35723,
+      65637,
+      70816,
+      64762,
+      57417,
+      10583,
+      78425,
+      5264,
+      56666,
+      96316,
+      42287,
+      79169,
+      32856,
+      3430,
+      12010,
+      30045,
+      88421,
+      75432,
+      76995,
+      2759,
+      88157,
+      35365
+    ],
+    "metadata": {
+      "comment_id": 4000320450
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000021"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/5091#issuecomment-4000311744",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "tiran",
+    "created_at": "2026-02-27T14:19:00Z",
+    "raw_text": "This should reduce the burden on maintainers significantly. Strong +1.",
+    "tokens": [
+      79945,
+      97044,
+      13046,
+      27275,
+      82027,
+      27699,
+      34727,
+      86603
+    ],
+    "metadata": {
+      "comment_id": 4000311744
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000a"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4871#issuecomment-4000028944",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "zooba",
+    "created_at": "2026-01-14T07:12:00Z",
+    "raw_text": "Beautiful solution. I've been hoping someone would tackle this for years.",
+    "tokens": [
+      36549,
+      60677,
+      32782,
+      9920,
+      58122,
+      72172,
+      12873,
+      6670,
+      85517,
+      70895,
+      1974,
+      12264,
+      98811,
+      31022,
+      21838,
+      53309
+    ],
+    "metadata": {
+      "comment_id": 4000028944
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000016"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4890#issuecomment-4000038766",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "brettcannon",
+    "created_at": "2026-03-25T22:00:00Z",
+    "raw_text": "Fantastic implementation. The tradeoffs are clearly explained.",
+    "tokens": [
+      60929,
+      6622,
+      73100,
+      32702,
+      15946,
+      59869,
+      17517,
+      60941,
+      87540,
+      69656,
+      73299,
+      78087,
+      41628,
+      99032,
+      58048,
+      80341,
+      94316,
+      66202,
+      55973,
+      71850,
+      58486,
+      20901,
+      97512,
+      62256,
+      59031,
+      34012,
+      98576,
+      32446,
+      83619,
+      36387,
+      68367,
+      63557,
+      82189,
+      31398,
+      36032,
+      57694,
+      10195,
+      93565
+    ],
+    "metadata": {
+      "comment_id": 4000038766
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000005"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/5004#issuecomment-4000038708",
+    "repo": "pypa/packaging",
+    "type": "issue_comment",
+    "author": "markshannon",
+    "created_at": "2026-03-13T17:16:00Z",
+    "raw_text": "Really appreciate the effort here. The documentation is especially clear.",
+    "tokens": [
+      18171,
+      66824,
+      64726,
+      11955,
+      99101,
+      6215,
+      14411,
+      20073,
+      82280,
+      21009,
+      89232,
+      55373,
+      78212,
+      8366,
+      50472,
+      50059,
+      78144,
+      61388,
+      69392
+    ],
+    "metadata": {
+      "comment_id": 4000038708
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000032"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4935#discussion_r4000264796",
+    "repo": "python/peps",
+    "type": "pull_request_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-02-15T07:37:00Z",
+    "raw_text": "The updated changelog entry is accurate and helpful. Approve.",
+    "tokens": [
+      97258,
+      55216,
+      68995,
+      14936,
+      97775,
+      8370,
+      62462,
+      58796,
+      47493,
+      67311,
+      77852,
+      14333,
+      59285
+    ],
+    "metadata": {
+      "comment_id": 4000264796
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000039"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4976#issuecomment-4000203336",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "MLopez-Ibanez",
+    "created_at": "2026-02-26T13:17:00Z",
+    "raw_text": "I disagree with the approach. Using stable ABI here is premature optimization.",
+    "tokens": [
+      37165,
+      88935,
+      88970,
+      77783,
+      63823,
+      69106,
+      87482,
+      40465,
+      5992,
+      28943,
+      51847,
+      78594
+    ],
+    "metadata": {
+      "comment_id": 4000203336
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002f"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4913#issuecomment-4000427708",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "serhiy-storchaka",
+    "created_at": "2026-01-30T15:01:00Z",
+    "raw_text": "Thanks for the quick turnaround on the review feedback. Ready to merge.",
+    "tokens": [
+      83323,
+      60892,
+      91931,
+      39648,
+      85137,
+      53556,
+      15332,
+      18360,
+      5983
+    ],
+    "metadata": {
+      "comment_id": 4000427708
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001b"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/5042#issuecomment-4000067496",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "vstinner",
+    "created_at": "2026-01-26T00:39:00Z",
+    "raw_text": "Well done. The code is clean and the logic is easy to follow.",
+    "tokens": [
+      73960,
+      28609,
+      60992,
+      91720,
+      33626,
+      48391,
+      22032,
+      79455,
+      79633,
+      98072,
+      94196,
+      15052
+    ],
+    "metadata": {
+      "comment_id": 4000067496
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000060"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/5042#discussion_r4000595365",
+    "repo": "python/cpython",
+    "type": "pull_request_comment",
+    "author": "methane",
+    "created_at": "2026-02-22T04:19:00Z",
+    "raw_text": "I don't think this approach scales. As soon as you have 10 platforms it falls apart.",
+    "tokens": [
+      39458,
+      92783,
+      18960,
+      60729,
+      7592,
+      73753,
+      54130,
+      54632,
+      73084,
+      69507,
+      17615,
+      50950,
+      31871,
+      33462,
+      26691,
+      43328,
+      84805,
+      10403,
+      58994
+    ],
+    "metadata": {
+      "comment_id": 4000595365
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000049"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4909#issuecomment-4000315936",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "zooba",
+    "created_at": "2026-02-19T17:07:00Z",
+    "raw_text": "The documentation is misleading. Several assumptions here are incorrect.",
+    "tokens": [
+      91001,
+      64422,
+      26277,
+      16114,
+      17830,
+      9746,
+      59290,
+      22670,
+      93542,
+      58381,
+      11546,
+      89421,
+      41929,
+      87575,
+      45577,
+      93040,
+      8551,
+      72129,
+      71103,
+      38098,
+      39355,
+      20684,
+      93338
+    ],
+    "metadata": {
+      "comment_id": 4000315936
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000007"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4985#issuecomment-4000048630",
+    "repo": "python/peps",
+    "type": "issue_comment",
+    "author": "MLopez-Ibanez",
+    "created_at": "2026-01-01T19:20:00Z",
+    "raw_text": "Thanks for the detailed writeup. This makes the rationale much clearer.",
+    "tokens": [
+      7632,
+      31611,
+      74404,
+      10362,
+      11266,
+      95972,
+      63739,
+      9111,
+      99733,
+      69862,
+      16523,
+      16868,
+      86514,
+      62336,
+      72103,
+      21683,
+      34781,
+      69203,
+      79547,
+      55501
+    ],
+    "metadata": {
+      "comment_id": 4000048630
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000058"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4965#discussion_r4000272049",
+    "repo": "python/cpython",
+    "type": "pull_request_comment",
+    "author": "ericvsmith",
+    "created_at": "2026-02-21T21:06:00Z",
+    "raw_text": "The PR is missing a NEWS entry. Not approving without that.",
+    "tokens": [
+      34221,
+      50315,
+      30910,
+      58594,
+      98836
+    ],
+    "metadata": {
+      "comment_id": 4000272049
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000004d"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4900#issuecomment-4000361228",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "ambv",
+    "created_at": "2026-01-29T11:33:00Z",
+    "raw_text": "This doesn't account for the Windows build pipeline. Major gap in the proposal.",
+    "tokens": [
+      36012,
+      16446,
+      81962,
+      39731,
+      80574,
+      69964,
+      12285,
+      65913,
+      84055,
+      22143,
+      77609,
+      76146,
+      20250,
+      22479,
+      86381,
+      81891,
+      94494,
+      79356,
+      44292,
+      73914,
+      5439,
+      3758,
+      10686,
+      5998,
+      84116,
+      75638,
+      34728,
+      85384,
+      27671,
+      75031,
+      54642,
+      81056,
+      83793,
+      4009,
+      65318,
+      82243,
+      71549,
+      38007,
+      84176,
+      39636
+    ],
+    "metadata": {
+      "comment_id": 4000361228
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000003c"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4920#discussion_r4000343616",
+    "repo": "pypa/pip",
+    "type": "pull_request_comment",
+    "author": "vstinner",
+    "created_at": "2026-03-09T16:12:00Z",
+    "raw_text": "I'm concerned about the long-term maintenance burden this introduces.",
+    "tokens": [
+      33590,
+      25896,
+      22780,
+      78997,
+      20076,
+      99682,
+      99543,
+      85958,
+      9916,
+      23258,
+      82346,
+      64804,
+      60851,
+      98926
+    ],
+    "metadata": {
+      "comment_id": 4000343616
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000003d"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4961#discussion_r4000560880",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "cjwatson",
+    "created_at": "2026-03-14T18:28:00Z",
+    "raw_text": "The benchmark methodology is flawed. We can't trust these numbers.",
+    "tokens": [
+      8990,
+      61502,
+      58001,
+      82796,
+      39731,
+      36042,
+      77558,
+      7402,
+      46169,
+      66537,
+      9764,
+      40725,
+      60561,
+      59273,
+      4969,
+      7496,
+      48371,
+      37667,
+      10097,
+      84537,
+      11875,
+      80650,
+      77907,
+      66502,
+      50434,
+      60688,
+      76104,
+      72695,
+      96891,
+      5416,
+      58987,
+      74968,
+      85477
+    ],
+    "metadata": {
+      "comment_id": 4000560880
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000013"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4976#issuecomment-4000033768",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-03-16T08:02:00Z",
+    "raw_text": "Agreed with the approach. Looking forward to seeing this land in 3.14.",
+    "tokens": [
+      57239,
+      79497,
+      67073,
+      15197,
+      50528,
+      75614,
+      24954,
+      33426,
+      5857,
+      92941,
+      57194,
+      261,
+      68186,
+      70615,
+      90067,
+      94337,
+      97288,
+      96645,
+      87940,
+      25865,
+      47779,
+      56571,
+      9211,
+      87102,
+      43319
+    ],
+    "metadata": {
+      "comment_id": 4000033768
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000020"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/5088#issuecomment-4000030318",
+    "repo": "python/cpython",
+    "type": "issue_comment",
+    "author": "vstinner",
+    "created_at": "2026-03-04T02:36:00Z",
+    "raw_text": "Thanks for addressing my earlier comments. The revision is much better.",
+    "tokens": [
+      32570,
+      15565,
+      73187,
+      54588,
+      79511,
+      78175,
+      81097,
+      29621,
+      68534,
+      49896
+    ],
+    "metadata": {
+      "comment_id": 4000030318
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000027"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4924#issuecomment-4000262466",
+    "repo": "pypa/packaging",
+    "type": "issue_comment",
+    "author": "ericvsmith",
+    "created_at": "2026-03-07T22:17:00Z",
+    "raw_text": "This is ready to merge now. Good work all around.",
+    "tokens": [
+      18998,
+      50317,
+      25023,
+      78601,
+      66656,
+      97858,
+      17932,
+      9190,
+      36248,
+      54427,
+      44588,
+      66590,
+      35058,
+      376,
+      37112,
+      95204,
+      39172,
+      76971,
+      76051,
+      86539,
+      64218,
+      19516,
+      58569,
+      70632,
+      63523,
+      45276,
+      43613,
+      72380,
+      71268,
+      49481,
+      59722,
+      42216,
+      24767,
+      91462,
+      31340,
+      74986,
+      50236,
+      30653,
+      53881,
+      5760
+    ],
+    "metadata": {
+      "comment_id": 4000262466
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000015"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/5063#issuecomment-4000057600",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "tiran",
+    "created_at": "2026-01-28T16:30:00Z",
+    "raw_text": "The changes are minimal and well-scoped. Easy approve from me.",
+    "tokens": [
+      12280,
+      98493,
+      30824,
+      88224,
+      40727,
+      29484,
+      26140,
+      19353,
+      3241,
+      6097,
+      32132,
+      62317,
+      80160,
+      9585,
+      59732,
+      54361,
+      82584,
+      75494,
+      25525,
+      94195,
+      91312,
+      50368,
+      64839,
+      52423,
+      32019,
+      19382
+    ],
+    "metadata": {
+      "comment_id": 4000057600
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000043"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/5070#issuecomment-4000168234",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "serhiy-storchaka",
+    "created_at": "2026-02-02T06:53:00Z",
+    "raw_text": "The implementation is correct but the approach is wrong. We should not expose this.",
+    "tokens": [
+      37802,
+      31187,
+      39512,
+      16010,
+      6298,
+      31292,
+      55067,
+      83788,
+      81673,
+      59954,
+      8272,
+      14570
+    ],
+    "metadata": {
+      "comment_id": 4000168234
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000005c"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4946#issuecomment-4000111930",
+    "repo": "pypa/packaging",
+    "type": "issue_comment",
+    "author": "encukou",
+    "created_at": "2026-01-09T17:03:00Z",
+    "raw_text": "The thread-safety assumptions here are incorrect. This will cause data corruption.",
+    "tokens": [
+      17790,
+      84125,
+      95629,
+      84696,
+      55137,
+      49121,
+      50172,
+      58830,
+      49519,
+      49276,
+      10558,
+      89526,
+      86782,
+      70727,
+      17471,
+      85700
+    ],
+    "metadata": {
+      "comment_id": 4000111930
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000031"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4897#discussion_r4000052416",
+    "repo": "pypa/packaging",
+    "type": "pull_request_comment",
+    "author": "ambv",
+    "created_at": "2026-03-11T20:22:00Z",
+    "raw_text": "This is a good tradeoff. Supporting both modes is the right call.",
+    "tokens": [
+      12055,
+      86910,
+      27841,
+      84149,
+      83859,
+      78309,
+      2839,
+      6669,
+      43753,
+      31965,
+      16545,
+      74040,
+      26936,
+      9032,
+      72681,
+      27192,
+      76898,
+      28345,
+      30579,
+      43104,
+      19380,
+      78156,
+      411,
+      36382,
+      19004,
+      17078,
+      70847,
+      32893,
+      22911,
+      14448,
+      86686,
+      3419,
+      17315,
+      1987
+    ],
+    "metadata": {
+      "comment_id": 4000052416
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000029"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/5003#issuecomment-4000177680",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "serhiy-storchaka",
+    "created_at": "2026-01-20T02:30:00Z",
+    "raw_text": "I'm satisfied with the resolution here. The compromise is fair.",
+    "tokens": [
+      43105,
+      88429,
+      69982,
+      49848,
+      41545,
+      82195,
+      94243,
+      99576,
+      63996,
+      70952
+    ],
+    "metadata": {
+      "comment_id": 4000177680
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000b"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4994#discussion_r4000066700",
+    "repo": "python/peps",
+    "type": "pull_request_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-03-04T15:13:00Z",
+    "raw_text": "The free-threaded build support here is implemented really well. Nice job.",
+    "tokens": [
+      34800,
+      59678,
+      37428,
+      55484,
+      91343,
+      95788,
+      72885,
+      86792,
+      94203,
+      63828,
+      20329,
+      24930,
+      38930,
+      28574,
+      7705,
+      75954,
+      96474,
+      71106,
+      8029,
+      98078,
+      41144,
+      7532,
+      6612,
+      76609,
+      62533,
+      65949,
+      69655,
+      20675,
+      7495
+    ],
+    "metadata": {
+      "comment_id": 4000066700
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000062"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4908#discussion_r4000538835",
+    "repo": "pypa/pip",
+    "type": "pull_request_comment",
+    "author": "hugovk",
+    "created_at": "2026-01-28T15:13:00Z",
+    "raw_text": "This doesn't work with cross-compilation setups. That's a serious limitation.",
+    "tokens": [
+      97934,
+      98911,
+      62813,
+      31837,
+      91217,
+      79260,
+      92284,
+      26845,
+      52027,
+      31409,
+      72402,
+      42194
+    ],
+    "metadata": {
+      "comment_id": 4000538835
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000004"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4883#issuecomment-4000008709",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "brettcannon",
+    "created_at": "2026-03-24T02:38:00Z",
+    "raw_text": "This is exactly what we needed. Merging once CI passes.",
+    "tokens": [
+      35422,
+      83926,
+      90238,
+      73040,
+      28825,
+      89773,
+      42544,
+      7371,
+      30061,
+      4247,
+      41387,
+      52621,
+      35133,
+      8715,
+      27693,
+      74381,
+      94138,
+      41285,
+      27909,
+      85949,
+      65475,
+      51896,
+      84299,
+      60182,
+      18766,
+      34758,
+      18341,
+      32365,
+      97687
+    ],
+    "metadata": {
+      "comment_id": 4000008709
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000040"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4968#discussion_r4000325836",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "pradyunsg",
+    "created_at": "2026-03-18T22:05:00Z",
+    "raw_text": "The migration path is unclear and risky. Not ready to approve.",
+    "tokens": [
+      12289,
+      84715,
+      87918,
+      55536,
+      66688,
+      47465,
+      2429,
+      47566,
+      40523,
+      23667,
+      28114,
+      44831,
+      63776,
+      25206,
+      29733,
+      18070,
+      20348,
+      10154,
+      38810,
+      13296,
+      66583,
+      70788,
+      96855,
+      69053,
+      4987,
+      86800,
+      44180,
+      81046,
+      17216,
+      78322,
+      49417,
+      20258,
+      21306,
+      23743,
+      90852,
+      81925,
+      21737,
+      94566
+    ],
+    "metadata": {
+      "comment_id": 4000325836
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000004a"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4862#discussion_r4000439606",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "brettcannon",
+    "created_at": "2026-03-23T05:50:00Z",
+    "raw_text": "This would require every downstream package to update. That's too much churn.",
+    "tokens": [
+      31069,
+      64792,
+      3485,
+      47343,
+      72656,
+      75049,
+      48393,
+      61303,
+      72345,
+      17049,
+      80249,
+      11340,
+      8657
+    ],
+    "metadata": {
+      "comment_id": 4000439606
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000026"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4922#issuecomment-4000297517",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "hugovk",
+    "created_at": "2026-02-06T14:56:00Z",
+    "raw_text": "The deprecation path is sensible. I agree with the timeline proposed.",
+    "tokens": [
+      40770,
+      72239,
+      1832,
+      72424,
+      53516,
+      12257,
+      29491,
+      14911,
+      60522,
+      15436,
+      84936,
+      20221,
+      65363,
+      93966,
+      38294
+    ],
+    "metadata": {
+      "comment_id": 4000297517
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000019"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/5049#discussion_r4000217128",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "brettcannon",
+    "created_at": "2026-03-10T23:47:00Z",
+    "raw_text": "Looks good to me. The backwards compatibility story is solid.",
+    "tokens": [
+      57165,
+      63694,
+      3844,
+      51008,
+      44097,
+      87710,
+      89056,
+      53034,
+      94959,
+      21672,
+      61301,
+      16768,
+      81600,
+      70048,
+      3574,
+      51685,
+      77620,
+      74015,
+      86940,
+      3592,
+      11043,
+      84286
+    ],
+    "metadata": {
+      "comment_id": 4000217128
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000034"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4964#issuecomment-4000375717",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "ngoldbaum",
+    "created_at": "2026-03-04T22:58:00Z",
+    "raw_text": "This will break existing packages that rely on the current behavior. -1.",
+    "tokens": [
+      8649,
+      16580,
+      36086,
+      81870,
+      83018,
+      76764,
+      71914,
+      93383,
+      42662,
+      49965,
+      78341,
+      69581,
+      38692,
+      59509
+    ],
+    "metadata": {
+      "comment_id": 4000375717
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000059"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4933#issuecomment-4000848584",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "hugovk",
+    "created_at": "2026-02-04T10:19:00Z",
+    "raw_text": "The suggested approach doesn't survive a rebase on main. Fix that first.",
+    "tokens": [
+      90842,
+      31012,
+      8182,
+      87568,
+      15535,
+      61040,
+      40253,
+      20974,
+      53178,
+      89965,
+      65906,
+      92256,
+      40800,
+      90517,
+      15429,
+      83757,
+      38711,
+      48214,
+      80600,
+      28987,
+      28761,
+      17547,
+      62716,
+      20118,
+      59674,
+      98047,
+      79435,
+      49011
+    ],
+    "metadata": {
+      "comment_id": 4000848584
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000055"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/5078#issuecomment-4000404460",
+    "repo": "python/peps",
+    "type": "issue_comment",
+    "author": "markshannon",
+    "created_at": "2026-03-13T23:17:00Z",
+    "raw_text": "The ABI tag format proposed here conflicts with existing tooling. Hard no.",
+    "tokens": [
+      45277,
+      19238,
+      38110,
+      5553,
+      37740,
+      93643,
+      10398,
+      45438,
+      58023,
+      86019,
+      33652,
+      97995,
+      62833,
+      28087,
+      26525,
+      70632,
+      35577,
+      73704,
+      91288,
+      35641,
+      18032,
+      14356,
+      80738,
+      97150,
+      76957,
+      31403,
+      31819,
+      6693,
+      87836,
+      69644
+    ],
+    "metadata": {
+      "comment_id": 4000404460
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002b"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4925#issuecomment-4000262122",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "vstinner",
+    "created_at": "2026-01-08T09:22:00Z",
+    "raw_text": "This PR addresses a genuine pain point. Very welcome change.",
+    "tokens": [
+      74217,
+      89404,
+      23640,
+      22320,
+      22986,
+      10390,
+      79927,
+      50180,
+      81266,
+      89579,
+      31606,
+      65270,
+      76475,
+      18798,
+      30473,
+      60483,
+      83651,
+      33329,
+      60276,
+      33506,
+      87444,
+      1271,
+      61021,
+      37740,
+      88855,
+      71683,
+      20746,
+      9721,
+      57938,
+      45333,
+      77054
+    ],
+    "metadata": {
+      "comment_id": 4000262122
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002a"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4846#issuecomment-4000161786",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "brettcannon",
+    "created_at": "2026-01-05T19:04:00Z",
+    "raw_text": "Nicely done. The wheel size reduction is a real benefit.",
+    "tokens": [
+      99703,
+      83106,
+      92300,
+      13213,
+      58193,
+      21845,
+      91004,
+      39291,
+      3834,
+      6068,
+      42556
+    ],
+    "metadata": {
+      "comment_id": 4000161786
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000036"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4947#issuecomment-4000312329",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "encukou",
+    "created_at": "2026-03-27T03:26:00Z",
+    "raw_text": "I don't think this PEP is ready yet. The motivation section doesn't justify the change.",
+    "tokens": [
+      46130,
+      13619,
+      75788,
+      66547,
+      27924,
+      20320,
+      86119,
+      63241,
+      29432,
+      14224,
+      45930,
+      72950,
+      48216,
+      15098,
+      99996,
+      36552,
+      75288,
+      29683,
+      56284,
+      73566,
+      81530,
+      80462,
+      88510,
+      84279
+    ],
+    "metadata": {
+      "comment_id": 4000312329
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002c"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4901#issuecomment-4000180471",
+    "repo": "pypa/packaging",
+    "type": "issue_comment",
+    "author": "tiran",
+    "created_at": "2026-02-08T20:27:00Z",
+    "raw_text": "The approach is conservative and safe. Exactly what we want for a stable ABI.",
+    "tokens": [
+      14019,
+      31131,
+      50026,
+      75003,
+      47089,
+      75381,
+      38820,
+      91695,
+      38736,
+      2915,
+      86315,
+      51919,
+      36016,
+      1101,
+      74217,
+      89929,
+      97645,
+      6468,
+      79522,
+      97711,
+      65147,
+      37552,
+      30202,
+      79609,
+      46219,
+      28745,
+      83482,
+      24960,
+      81421,
+      32890,
+      88875,
+      99075,
+      94533,
+      86440,
+      89281
+    ],
+    "metadata": {
+      "comment_id": 4000180471
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000046"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4821#issuecomment-4000234738",
+    "repo": "python/peps",
+    "type": "issue_comment",
+    "author": "pfmoore",
+    "created_at": "2026-02-28T01:18:00Z",
+    "raw_text": "I don't think the CPython core team has signed off on this direction. Blocking.",
+    "tokens": [
+      67592,
+      52236,
+      71216,
+      62089,
+      33242,
+      4839,
+      98775,
+      84830,
+      25088,
+      37541,
+      46829,
+      6305,
+      85988,
+      43546,
+      35851,
+      16355,
+      48277,
+      57312,
+      52471,
+      97466,
+      57677,
+      50718,
+      44478,
+      24526
+    ],
+    "metadata": {
+      "comment_id": 4000234738
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000f"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4928#discussion_r4000061950",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "ericvsmith",
+    "created_at": "2026-01-27T21:40:00Z",
+    "raw_text": "Happy to approve this. The edge cases are handled correctly.",
+    "tokens": [
+      83176,
+      55558,
+      36305,
+      5818,
+      504,
+      43759,
+      17186,
+      83547,
+      34375,
+      21218
+    ],
+    "metadata": {
+      "comment_id": 4000061950
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002d"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4817#issuecomment-4000032780",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "zooba",
+    "created_at": "2026-01-18T20:06:00Z",
+    "raw_text": "Perfect. This is what I was hoping for when I filed the issue.",
+    "tokens": [
+      96031,
+      17264,
+      11853,
+      38720,
+      42863,
+      98013,
+      54500,
+      23061,
+      26358,
+      17362,
+      70741,
+      47993,
+      69619,
+      65811,
+      35760,
+      21607,
+      33721,
+      63196,
+      38724,
+      97893,
+      44436,
+      15135,
+      61425,
+      9909,
+      18489,
+      98888,
+      29611,
+      88687
+    ],
+    "metadata": {
+      "comment_id": 4000032780
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000010"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4857#discussion_r4000106605",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "hugovk",
+    "created_at": "2026-02-26T17:45:00Z",
+    "raw_text": "Really solid work. This should unblock several downstream packages.",
+    "tokens": [
+      71551,
+      4762,
+      48433,
+      76390,
+      72460,
+      19450,
+      56373,
+      16744,
+      5522,
+      40444,
+      47835,
+      5269,
+      46938,
+      27575
+    ],
+    "metadata": {
+      "comment_id": 4000106605
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000048"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4873#issuecomment-4000603926",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "hugovk",
+    "created_at": "2026-03-23T12:23:00Z",
+    "raw_text": "Nack. This conflicts with the decisions made in the packaging summit.",
+    "tokens": [
+      4601,
+      16585,
+      8852,
+      30972,
+      84602,
+      48055,
+      47507,
+      50221,
+      74389,
+      4284,
+      79350,
+      20151,
+      89046,
+      59012,
+      48663,
+      48800,
+      58228,
+      10117,
+      75265,
+      18087,
+      69437,
+      48136,
+      52211,
+      41247,
+      85179,
+      36568,
+      32757,
+      14909,
+      3436,
+      96466,
+      24425,
+      65450,
+      67901
+    ],
+    "metadata": {
+      "comment_id": 4000603926
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000061"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4993#issuecomment-4000309120",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "ambv",
+    "created_at": "2026-02-17T02:34:00Z",
+    "raw_text": "The PEP references a superseded design doc. Needs to be updated.",
+    "tokens": [
+      9579,
+      24702,
+      99877,
+      77055,
+      94976,
+      88048,
+      73289
+    ],
+    "metadata": {
+      "comment_id": 4000309120
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000037"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4939#issuecomment-4000241974",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-03-13T00:38:00Z",
+    "raw_text": "This adds significant complexity with minimal benefit. Needs more thought.",
+    "tokens": [
+      44581,
+      46049,
+      840,
+      23817,
+      18816,
+      74268,
+      86199,
+      52571,
+      9160,
+      18635,
+      97160,
+      83031,
+      4058,
+      12066,
+      97834,
+      69571,
+      28237,
+      49348,
+      55068,
+      59500,
+      44721,
+      20671,
+      48543,
+      40886
+    ],
+    "metadata": {
+      "comment_id": 4000241974
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000018"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4994#issuecomment-4000222387",
+    "repo": "python/peps",
+    "type": "issue_comment",
+    "author": "markshannon",
+    "created_at": "2026-01-27T13:24:00Z",
+    "raw_text": "The migration guide is excellent. This will help a lot of projects.",
+    "tokens": [
+      46145,
+      39179,
+      98799,
+      51156,
+      54961
+    ],
+    "metadata": {
+      "comment_id": 4000222387
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000006"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4936#issuecomment-4000001440",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "methane",
+    "created_at": "2026-02-02T17:55:00Z",
+    "raw_text": "I'm happy with this direction. The stable ABI approach solves the wheel count problem elegantly.",
+    "tokens": [
+      14661,
+      38509,
+      57025,
+      20770,
+      59510,
+      465,
+      94686,
+      94369,
+      34562,
+      65652,
+      99911,
+      23456,
+      66582,
+      13987,
+      81999,
+      39157,
+      83788,
+      66580,
+      79858,
+      26111,
+      20072,
+      49049,
+      99983,
+      21214,
+      70737,
+      69554
+    ],
+    "metadata": {
+      "comment_id": 4000001440
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001a"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4933#issuecomment-4000191600",
+    "repo": "python/cpython",
+    "type": "issue_comment",
+    "author": "encukou",
+    "created_at": "2026-02-24T04:55:00Z",
+    "raw_text": "This is a net positive for the ecosystem. Approve.",
+    "tokens": [
+      27782,
+      59638,
+      42880,
+      44276,
+      99815,
+      49732,
+      36511,
+      98607,
+      55295,
+      33105,
+      10775,
+      61684,
+      2580,
+      98216,
+      70742,
+      6866,
+      45910,
+      29429,
+      85255,
+      9033,
+      85466,
+      5316,
+      98898,
+      4107,
+      32451
+    ],
+    "metadata": {
+      "comment_id": 4000191600
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000033"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/5034#issuecomment-4000040500",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "tiran",
+    "created_at": "2026-03-06T07:39:00Z",
+    "raw_text": "I'm not convinced this is the right approach. The stable ABI has too many limitations.",
+    "tokens": [
+      8012,
+      62821,
+      52680,
+      55912,
+      89968,
+      14190
+    ],
+    "metadata": {
+      "comment_id": 4000040500
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000063"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4933#issuecomment-4000866614",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "tiran",
+    "created_at": "2026-02-06T12:29:00Z",
+    "raw_text": "I strongly recommend against merging this until the free-threaded ABI is stabilized.",
+    "tokens": [
+      65219,
+      61120,
+      12964,
+      94728,
+      61577,
+      99868,
+      42013,
+      26664,
+      48629,
+      41055,
+      54294,
+      6032,
+      73771,
+      29042,
+      97197,
+      19166,
+      2165,
+      34220,
+      72563,
+      76590,
+      75949,
+      94413,
+      54772,
+      38731,
+      20016,
+      25755,
+      43276,
+      30189,
+      49826,
+      74723,
+      32248,
+      65484,
+      72213,
+      85840,
+      89804,
+      44285,
+      33768
+    ],
+    "metadata": {
+      "comment_id": 4000866614
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000004b"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/5009#issuecomment-4000587708",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-02-09T12:45:00Z",
+    "raw_text": "I'm uncomfortable approving this without a formal security review.",
+    "tokens": [
+      16466,
+      41593,
+      84232,
+      9760,
+      59019,
+      61097,
+      89183,
+      67851,
+      45196
+    ],
+    "metadata": {
+      "comment_id": 4000587708
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000004e"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4837#issuecomment-4000519981",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "zooba",
+    "created_at": "2026-03-03T07:51:00Z",
+    "raw_text": "The implementation leaks memory in certain configurations. Needs a fix first.",
+    "tokens": [
+      20759,
+      57659,
+      54516,
+      63511,
+      60915,
+      26781,
+      44629,
+      79556
+    ],
+    "metadata": {
+      "comment_id": 4000519981
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000011"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4879#discussion_r4000094304",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-02-01T21:06:00Z",
+    "raw_text": "The test coverage is impressive. +1 for merging.",
+    "tokens": [
+      23246,
+      54080,
+      3288,
+      23549,
+      96582,
+      43580,
+      54004,
+      87846,
+      96385,
+      32567,
+      35010,
+      20906,
+      91957,
+      14208,
+      50180
+    ],
+    "metadata": {
+      "comment_id": 4000094304
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000022"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4880#discussion_r4000097251",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "ngoldbaum",
+    "created_at": "2026-01-11T05:15:00Z",
+    "raw_text": "The implementation is correct and the docs are updated. LGTM.",
+    "tokens": [
+      59088,
+      90397,
+      77872,
+      61632,
+      38215,
+      4318,
+      30380,
+      37802,
+      92702,
+      37096,
+      92181,
+      59550,
+      9369,
+      90136,
+      30635,
+      34715,
+      81967,
+      77344,
+      86702,
+      25968,
+      55763,
+      15083,
+      71416,
+      29506,
+      84926,
+      19568,
+      34856,
+      18683,
+      9399,
+      7856,
+      21787
+    ],
+    "metadata": {
+      "comment_id": 4000097251
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000028"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/5053#discussion_r4000247494",
+    "repo": "pypa/packaging",
+    "type": "pull_request_comment",
+    "author": "vstinner",
+    "created_at": "2026-02-10T23:30:00Z",
+    "raw_text": "Approved. The compatibility guarantees are clearly stated and reasonable.",
+    "tokens": [
+      65876,
+      77396,
+      43555,
+      13194,
+      57751,
+      13109,
+      68977,
+      59930,
+      2051,
+      94732,
+      18934,
+      53776,
+      85863
+    ],
+    "metadata": {
+      "comment_id": 4000247494
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000042"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4846#discussion_r4000553150",
+    "repo": "python/cpython",
+    "type": "pull_request_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-02-04T14:57:00Z",
+    "raw_text": "Strongly opposed. This regresses the behavior we fixed in 3.11.",
+    "tokens": [
+      45860,
+      3535,
+      54421,
+      7020,
+      52004,
+      65839,
+      49055,
+      30943,
+      50655,
+      10736,
+      49180,
+      29470,
+      3734,
+      41810,
+      13027,
+      93717,
+      85231,
+      43987,
+      19182,
+      18075,
+      5060,
+      37641,
+      61965,
+      91275,
+      18231,
+      99502,
+      92516,
+      61527,
+      58839,
+      80694,
+      728,
+      10424,
+      2530
+    ],
+    "metadata": {
+      "comment_id": 4000553150
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001f"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4941#issuecomment-4000097140",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "ericvsmith",
+    "created_at": "2026-03-10T22:11:00Z",
+    "raw_text": "I really like how this handles the version compatibility matrix. Very clever.",
+    "tokens": [
+      78262,
+      37133,
+      13216,
+      25483,
+      38869,
+      29856,
+      47341,
+      23559,
+      39658,
+      1894,
+      92841,
+      70050,
+      16631,
+      35994,
+      6005,
+      7186,
+      72569,
+      38330,
+      91451,
+      16591,
+      83646,
+      98709,
+      64380,
+      13486,
+      1647,
+      75283,
+      37308,
+      61564,
+      62786,
+      57773,
+      44697,
+      24204,
+      6774,
+      33132,
+      62656,
+      14993,
+      8604,
+      52561
+    ],
+    "metadata": {
+      "comment_id": 4000097140
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000005e"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4923#discussion_r4000648024",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "hugovk",
+    "created_at": "2026-01-15T01:51:00Z",
+    "raw_text": "The API surface here is way too large for what it's trying to accomplish.",
+    "tokens": [
+      13264,
+      77889,
+      4440,
+      58555,
+      78392,
+      88123,
+      92221,
+      6420,
+      32117
+    ],
+    "metadata": {
+      "comment_id": 4000648024
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000d"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4961#discussion_r4000026928",
+    "repo": "pypa/pip",
+    "type": "pull_request_comment",
+    "author": "zooba",
+    "created_at": "2026-01-31T08:25:00Z",
+    "raw_text": "This simplifies the build process considerably. Huge win for downstream packagers.",
+    "tokens": [
+      60108,
+      81456,
+      73832,
+      13144,
+      9642
+    ],
+    "metadata": {
+      "comment_id": 4000026928
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000e"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4835#discussion_r4000057785",
+    "repo": "python/cpython",
+    "type": "pull_request_comment",
+    "author": "dstufft",
+    "created_at": "2026-03-10T06:32:00Z",
+    "raw_text": "The PEP is well-written and the motivation section is particularly convincing.",
+    "tokens": [
+      37393,
+      20716,
+      57473,
+      71240,
+      92254,
+      39691,
+      80213,
+      85757,
+      69369,
+      1065,
+      87578,
+      72732,
+      39280,
+      86991,
+      13617,
+      17641,
+      34704,
+      15169,
+      14069,
+      97350,
+      72552,
+      20414,
+      35737,
+      36970,
+      79316,
+      27647,
+      94098,
+      44982
+    ],
+    "metadata": {
+      "comment_id": 4000057785
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000017"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4841#discussion_r4000123244",
+    "repo": "pypa/pip",
+    "type": "pull_request_comment",
+    "author": "methane",
+    "created_at": "2026-02-06T07:17:00Z",
+    "raw_text": "I'm glad we're moving in this direction. This reduces friction for extension authors.",
+    "tokens": [
+      30351,
+      50245,
+      90997,
+      20068,
+      92631,
+      28083,
+      8458,
+      54417,
+      53464,
+      43409,
+      71161,
+      61109,
+      54536,
+      8201
+    ],
+    "metadata": {
+      "comment_id": 4000123244
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000038"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4880#issuecomment-4000082005",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "vstinner",
+    "created_at": "2026-02-11T18:38:00Z",
+    "raw_text": "The backwards compatibility story here is weak. This will cause real pain for users.",
+    "tokens": [
+      88378,
+      10733,
+      35705,
+      58119,
+      86801,
+      55616,
+      63696,
+      79610
+    ],
+    "metadata": {
+      "comment_id": 4000082005
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000005f"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4828#discussion_r4000370266",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "pfmoore",
+    "created_at": "2026-01-06T12:28:00Z",
+    "raw_text": "Blocking. The license metadata change is incorrect and will break PyPI validation.",
+    "tokens": [
+      37954,
+      30732,
+      95921,
+      75551,
+      41839,
+      75730,
+      78410,
+      88190,
+      42070,
+      31091,
+      39592,
+      18817,
+      86575,
+      68361,
+      29012,
+      54246,
+      39427,
+      36104,
+      8029,
+      73010,
+      77590,
+      96405,
+      22995,
+      82090,
+      89005,
+      56034,
+      72896,
+      65002,
+      6185,
+      45183,
+      84360,
+      88034,
+      49998,
+      68782,
+      41817,
+      91306,
+      54608
+    ],
+    "metadata": {
+      "comment_id": 4000370266
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000004c"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/5021#issuecomment-4000729750",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "vstinner",
+    "created_at": "2026-01-17T17:40:00Z",
+    "raw_text": "The proposed ABI compatibility level is too aggressive. We'll regret this in 5 years.",
+    "tokens": [
+      16314,
+      67948,
+      20096,
+      39902,
+      21621,
+      21269,
+      42331,
+      93013
+    ],
+    "metadata": {
+      "comment_id": 4000729750
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000025"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/5032#discussion_r4000239796",
+    "repo": "python/mypy",
+    "type": "pull_request_comment",
+    "author": "encukou",
+    "created_at": "2026-03-05T09:42:00Z",
+    "raw_text": "Great that this works with both CPython 3.12 and 3.13. Good future-proofing.",
+    "tokens": [
+      33122,
+      42412,
+      15234,
+      53016,
+      67489,
+      190,
+      86240,
+      71158,
+      60592,
+      54205,
+      7144,
+      24626,
+      67992,
+      47459,
+      81649,
+      99188,
+      65378,
+      82013,
+      57979,
+      99653,
+      6804,
+      26720,
+      35043,
+      72027,
+      17212
+    ],
+    "metadata": {
+      "comment_id": 4000239796
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000057"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4971#issuecomment-4000808830",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "MLopez-Ibanez",
+    "created_at": "2026-01-05T00:19:00Z",
+    "raw_text": "This will cause silent breakage for users on older distros. Not acceptable.",
+    "tokens": [
+      84098,
+      71251,
+      68763,
+      64778,
+      17629,
+      66128,
+      61384,
+      35801,
+      25312,
+      14804,
+      43383,
+      21338,
+      95869,
+      60190,
+      85012,
+      33760,
+      94228,
+      24445,
+      1886,
+      96589,
+      44225,
+      38709,
+      74460,
+      88435,
+      99298,
+      25358,
+      23042,
+      80119,
+      83759,
+      53188,
+      56099,
+      67578,
+      43022,
+      11408
+    ],
+    "metadata": {
+      "comment_id": 4000808830
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000024"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/5026#issuecomment-4000103950",
+    "repo": "pypa/packaging",
+    "type": "issue_comment",
+    "author": "pablogsal",
+    "created_at": "2026-03-15T01:48:00Z",
+    "raw_text": "Happy to see this finally merged. Long overdue.",
+    "tokens": [
+      76760,
+      57172,
+      83242,
+      64491,
+      11999,
+      61645,
+      45647,
+      53563,
+      43727,
+      42121,
+      87875,
+      13750,
+      21119,
+      43268,
+      53995,
+      90961
+    ],
+    "metadata": {
+      "comment_id": 4000103950
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000044"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4923#issuecomment-4000024723",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "markshannon",
+    "created_at": "2026-03-05T19:34:00Z",
+    "raw_text": "The wheel size savings don't justify the API surface increase.",
+    "tokens": [
+      38217,
+      56301,
+      245,
+      80624,
+      46284,
+      31571,
+      74838,
+      54640,
+      24591,
+      87120,
+      87624,
+      11261,
+      68654,
+      47305
+    ],
+    "metadata": {
+      "comment_id": 4000024723
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000056"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4969#issuecomment-4000081600",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-01-29T20:14:00Z",
+    "raw_text": "I'm skeptical of the claimed benefits. The real-world impact will be much smaller.",
+    "tokens": [
+      13218,
+      89325,
+      18058,
+      719,
+      72175,
+      20741,
+      53374,
+      85615,
+      62390,
+      62620,
+      85307,
+      26183,
+      99118,
+      37689,
+      42136,
+      37449,
+      84699,
+      7794,
+      11765,
+      85538,
+      75292,
+      30477,
+      70183,
+      96861,
+      94820,
+      4928,
+      22986,
+      54813,
+      23080,
+      4803,
+      52074,
+      64970,
+      24460,
+      98213,
+      37981
+    ],
+    "metadata": {
+      "comment_id": 4000081600
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000005d"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4865#issuecomment-4000818984",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "pablogsal",
+    "created_at": "2026-02-14T03:11:00Z",
+    "raw_text": "Too risky for a minor release. Push this to 3.15.",
+    "tokens": [
+      495,
+      99153,
+      3019,
+      39147,
+      60726,
+      88316,
+      94293,
+      71401,
+      55631,
+      69761,
+      49752,
+      30142,
+      32481,
+      60415,
+      45411,
+      20372,
+      36169,
+      24744,
+      95070
+    ],
+    "metadata": {
+      "comment_id": 4000818984
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000064"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4980#discussion_r4000805563",
+    "repo": "pypa/packaging",
+    "type": "pull_request_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-03-04T23:41:00Z",
+    "raw_text": "The commit message history here is a mess. Please squash before merging.",
+    "tokens": [
+      94452,
+      71676,
+      64044,
+      24163,
+      71098,
+      84163,
+      7738,
+      68714,
+      4473,
+      9782,
+      87624,
+      6398,
+      876
+    ],
+    "metadata": {
+      "comment_id": 4000805563
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000047"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4842#issuecomment-4000428260",
+    "repo": "python/mypy",
+    "type": "pull_request_review_comment",
+    "author": "ambv",
+    "created_at": "2026-03-05T22:31:00Z",
+    "raw_text": "The test suite is insufficient. Several important cases are not covered.",
+    "tokens": [
+      10385,
+      56480,
+      79004,
+      23692,
+      71536,
+      38544,
+      42141,
+      13487,
+      10534,
+      43021,
+      86668,
+      38790,
+      40213,
+      58487,
+      79026,
+      94105,
+      55891,
+      21882,
+      90448,
+      58223,
+      46117,
+      58646,
+      5591,
+      95305,
+      46250,
+      80629,
+      57048,
+      36026,
+      83856,
+      7558,
+      9875,
+      88013
+    ],
+    "metadata": {
+      "comment_id": 4000428260
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000045"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4810#issuecomment-4000572016",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "methane",
+    "created_at": "2026-01-09T16:34:00Z",
+    "raw_text": "This will confuse users. The error messages give no indication of what went wrong.",
+    "tokens": [
+      5746,
+      83358,
+      50749,
+      48969,
+      33286,
+      97992,
+      2168,
+      46845,
+      8895,
+      45233,
+      31644,
+      96108,
+      86167,
+      82386,
+      13627,
+      76311,
+      96402,
+      99219,
+      43623,
+      17526,
+      5851,
+      46216,
+      71607,
+      44414,
+      84292,
+      22989,
+      89782,
+      60939,
+      91186,
+      62762,
+      82842,
+      23931,
+      17715,
+      8310,
+      93893
+    ],
+    "metadata": {
+      "comment_id": 4000572016
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000001"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4871#issuecomment-4000000000",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "brettcannon",
+    "created_at": "2026-03-23T03:01:00Z",
+    "raw_text": "This looks great! Really clean implementation. +1 from me.",
+    "tokens": [
+      88736,
+      97120,
+      71522,
+      11435,
+      77437,
+      55342,
+      4205,
+      3945,
+      12320,
+      28697,
+      30535
+    ],
+    "metadata": {
+      "comment_id": 4000000000
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000003"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4840#discussion_r4000001700",
+    "repo": "python/cpython",
+    "type": "pull_request_comment",
+    "author": "tiran",
+    "created_at": "2026-01-25T22:04:00Z",
+    "raw_text": "Excellent work here. The approach is well thought out and the tests are thorough.",
+    "tokens": [
+      49863,
+      36474,
+      59469,
+      83360,
+      47859,
+      21359,
+      48560,
+      46606,
+      27500,
+      87881,
+      35033
+    ],
+    "metadata": {
+      "comment_id": 4000001700
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000003f"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4944#issuecomment-4000167400",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "dstufft",
+    "created_at": "2026-03-09T16:39:00Z",
+    "raw_text": "Blocking this until the ABI compatibility guarantees are formally specified.",
+    "tokens": [
+      44390,
+      89024,
+      78406,
+      6903,
+      82731,
+      84883,
+      43903,
+      8679,
+      43253,
+      12427,
+      73173,
+      88956,
+      50707,
+      37283,
+      33069,
+      94901,
+      86097,
+      79037,
+      19749,
+      43734,
+      10722,
+      76420,
+      87020,
+      18577,
+      45891,
+      40702,
+      86030,
+      91591,
+      86827,
+      51414,
+      16941
+    ],
+    "metadata": {
+      "comment_id": 4000167400
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000003e"
+    },
+    "source": "github",
+    "url": "https://github.com/python/mypy/pull/4831#issuecomment-4000481412",
+    "repo": "python/mypy",
+    "type": "issue_comment",
+    "author": "vstinner",
+    "created_at": "2026-01-25T10:38:00Z",
+    "raw_text": "This breaks the free-threaded build. That's a non-starter for us.",
+    "tokens": [
+      45055,
+      93666,
+      11093,
+      66172,
+      84729,
+      22657,
+      5170,
+      32512,
+      92789,
+      57417,
+      57635
+    ],
+    "metadata": {
+      "comment_id": 4000481412
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000004f"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4866#issuecomment-4000415818",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "pradyunsg",
+    "created_at": "2026-01-19T10:55:00Z",
+    "raw_text": "I've seen this pattern fail before. The hidden cost here is in debugging and support.",
+    "tokens": [
+      73656,
+      13957,
+      41867,
+      31725,
+      61181,
+      16099,
+      35098,
+      58969,
+      32535,
+      18505,
+      12729,
+      6672,
+      38078,
+      50391,
+      80698,
+      54845,
+      32581,
+      20972,
+      42957,
+      75758,
+      94559,
+      41028,
+      24921,
+      20925,
+      65348,
+      67506,
+      61226,
+      65413,
+      40481,
+      65231,
+      3077,
+      11842,
+      51583,
+      66289,
+      59970,
+      31592,
+      28239
+    ],
+    "metadata": {
+      "comment_id": 4000415818
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000052"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4957#issuecomment-4000153495",
+    "repo": "pypa/packaging",
+    "type": "pull_request_review_comment",
+    "author": "markshannon",
+    "created_at": "2026-02-17T10:43:00Z",
+    "raw_text": "The added complexity here doesn't pay for itself. Simpler alternatives exist.",
+    "tokens": [
+      78278,
+      62245,
+      34843,
+      85969,
+      75861,
+      75751
+    ],
+    "metadata": {
+      "comment_id": 4000153495
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000050"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/5040#issuecomment-4000073312",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "ericvsmith",
+    "created_at": "2026-03-16T11:03:00Z",
+    "raw_text": "The PEP doesn't address what happens when a package transitions. That's a real problem.",
+    "tokens": [
+      1111,
+      14129,
+      56522,
+      17595,
+      34704,
+      95395,
+      47983,
+      52895,
+      48004,
+      5970,
+      52545,
+      6745,
+      74787,
+      73678,
+      25553,
+      47556,
+      72552,
+      37867,
+      9677,
+      50679,
+      66133,
+      59068,
+      72110,
+      36703,
+      81729,
+      89221,
+      80130,
+      15612,
+      16904,
+      12712,
+      51669,
+      48955,
+      44484,
+      73156,
+      47960,
+      98994,
+      18949,
+      26130,
+      79006
+    ],
+    "metadata": {
+      "comment_id": 4000073312
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000008"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4991#issuecomment-4000023765",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "pradyunsg",
+    "created_at": "2026-01-28T17:48:00Z",
+    "raw_text": "Great improvement over the previous approach. The benchmark numbers look promising.",
+    "tokens": [
+      59217,
+      15900,
+      32533,
+      29491,
+      8432,
+      44353,
+      2797,
+      77150,
+      72643,
+      30201,
+      77168,
+      28904,
+      982,
+      9345,
+      92818,
+      82759,
+      7756,
+      30047,
+      8874,
+      4157,
+      43349,
+      9327,
+      67431,
+      31235,
+      36540,
+      87724,
+      63664,
+      28120,
+      70718,
+      17382,
+      94851,
+      74887,
+      75565,
+      61993,
+      31890,
+      62033,
+      53394,
+      24997
+    ],
+    "metadata": {
+      "comment_id": 4000023765
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000030"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/5075#discussion_r4000094094",
+    "repo": "python/peps",
+    "type": "pull_request_comment",
+    "author": "brettcannon",
+    "created_at": "2026-01-05T09:31:00Z",
+    "raw_text": "I verified the fix works correctly with my use case. +1.",
+    "tokens": [
+      59499,
+      48669,
+      87921,
+      97444,
+      91329,
+      70844,
+      54975,
+      77023,
+      97330,
+      95276,
+      20293,
+      54419,
+      85881,
+      13018,
+      64179,
+      80734,
+      53532,
+      36706,
+      4328,
+      90516,
+      48606,
+      28517,
+      58155,
+      58327,
+      30987,
+      47577,
+      13062,
+      89913,
+      48187
+    ],
+    "metadata": {
+      "comment_id": 4000094094
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000003b"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/5007#discussion_r4000402694",
+    "repo": "pypa/pip",
+    "type": "pull_request_comment",
+    "author": "MLopez-Ibanez",
+    "created_at": "2026-02-24T18:25:00Z",
+    "raw_text": "The proposed changes conflict with PEP 517. We need to resolve that first.",
+    "tokens": [
+      22567,
+      81058,
+      60345,
+      90428,
+      47468,
+      11591,
+      57280,
+      13915,
+      31931,
+      57144,
+      77224,
+      52527,
+      68716,
+      10348,
+      51913,
+      40708,
+      97794,
+      44540,
+      29081,
+      43695,
+      22077,
+      10051,
+      66950,
+      83038,
+      14985
+    ],
+    "metadata": {
+      "comment_id": 4000402694
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000041"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4945#issuecomment-4000388352",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "zooba",
+    "created_at": "2026-02-26T01:26:00Z",
+    "raw_text": "This introduces a silent failure mode that's going to be very hard to debug.",
+    "tokens": [
+      30711,
+      70033,
+      31388,
+      40602,
+      61514,
+      25470,
+      48253,
+      88947,
+      74806,
+      57789,
+      60553,
+      36972,
+      50092,
+      65956,
+      69175,
+      54914,
+      21281,
+      26214,
+      79294,
+      18180,
+      32808,
+      6879,
+      84080,
+      63031,
+      48695,
+      72724,
+      13486,
+      93284,
+      67661,
+      16381,
+      37403,
+      11033,
+      21052
+    ],
+    "metadata": {
+      "comment_id": 4000388352
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001c"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/5094#issuecomment-4000258687",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "tiran",
+    "created_at": "2026-01-21T09:06:00Z",
+    "raw_text": "I support this change. It aligns with the long-term goals of the packaging ecosystem.",
+    "tokens": [
+      52030,
+      93758,
+      26035,
+      10001,
+      77647,
+      90560,
+      82253,
+      31870,
+      13396,
+      91422,
+      39569,
+      89727,
+      78737,
+      15906,
+      74217,
+      5423,
+      45548,
+      69867,
+      56188,
+      86746,
+      48611,
+      9078,
+      66357,
+      84914,
+      44765,
+      1698,
+      55097,
+      64291,
+      13873
+    ],
+    "metadata": {
+      "comment_id": 4000258687
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000002"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/5014#discussion_r4000009295",
+    "repo": "python/cpython",
+    "type": "pull_request_comment",
+    "author": "methane",
+    "created_at": "2026-03-06T19:01:00Z",
+    "raw_text": "LGTM. Thanks for tackling this long-standing issue.",
+    "tokens": [
+      77276,
+      36503,
+      891,
+      99498,
+      20966,
+      91546,
+      55432,
+      44637,
+      36461,
+      20419,
+      28261,
+      44158,
+      13436,
+      12196,
+      49837,
+      12716,
+      47092,
+      45122,
+      79171,
+      34711,
+      5735,
+      95687,
+      60257,
+      70324,
+      16401,
+      49655,
+      10368,
+      72397,
+      38467,
+      82437,
+      81110,
+      47440,
+      75714
+    ],
+    "metadata": {
+      "comment_id": 4000009295
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000014"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/4958#issuecomment-4000040679",
+    "repo": "pypa/pip",
+    "type": "pull_request_review_comment",
+    "author": "pablogsal",
+    "created_at": "2026-03-21T10:42:00Z",
+    "raw_text": "Thanks everyone for the thorough review. I think this is ready.",
+    "tokens": [
+      42793,
+      52783,
+      91424,
+      38792,
+      72707,
+      16723,
+      25184,
+      55148,
+      87193,
+      49735,
+      88817,
+      98099,
+      22850,
+      80716,
+      74633,
+      39486,
+      53265,
+      71859,
+      93,
+      39869,
+      37646,
+      27589,
+      56386,
+      76059,
+      79556,
+      85853,
+      42277,
+      60986,
+      57945,
+      57994,
+      88595
+    ],
+    "metadata": {
+      "comment_id": 4000040679
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000005b"
+    },
+    "source": "github",
+    "url": "https://github.com/python/cpython/pull/4967#issuecomment-4000800280",
+    "repo": "python/cpython",
+    "type": "pull_request_review_comment",
+    "author": "gvanrossum",
+    "created_at": "2026-03-06T06:36:00Z",
+    "raw_text": "I don't agree this should be in the standard library. It belongs in a third-party package.",
+    "tokens": [
+      15275,
+      89207,
+      26962,
+      94007,
+      76474,
+      64111,
+      11959,
+      66935,
+      58430,
+      7332,
+      59472,
+      17334,
+      67312,
+      54490,
+      59913,
+      73952,
+      7607,
+      73282,
+      60644,
+      88221,
+      40432,
+      94841,
+      2893,
+      51937,
+      33392,
+      435,
+      97794,
+      28600,
+      75840,
+      9612,
+      5976,
+      55574,
+      45198
+    ],
+    "metadata": {
+      "comment_id": 4000800280
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000009"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/pip/pull/5010#issuecomment-4000057296",
+    "repo": "pypa/pip",
+    "type": "issue_comment",
+    "author": "ncoghlan",
+    "created_at": "2026-01-13T03:42:00Z",
+    "raw_text": "This PR is a big step forward for the ecosystem. Strongly support merging.",
+    "tokens": [
+      88299,
+      85689,
+      84736,
+      12939,
+      7984,
+      52812,
+      95488,
+      44513
+    ],
+    "metadata": {
+      "comment_id": 4000057296
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001e"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/5084#discussion_r4000117566",
+    "repo": "pypa/packaging",
+    "type": "pull_request_comment",
+    "author": "ericvsmith",
+    "created_at": "2026-03-08T06:05:00Z",
+    "raw_text": "This is the kind of pragmatic solution we need. Merging.",
+    "tokens": [
+      84699,
+      93342,
+      64372,
+      58783,
+      2300,
+      12236,
+      38606,
+      29085,
+      53045,
+      90713,
+      31930,
+      40175,
+      87066,
+      76265,
+      48408,
+      62071,
+      72584,
+      69628,
+      45096,
+      55811,
+      97811,
+      72180,
+      43397,
+      46152,
+      92164,
+      59513,
+      35549,
+      40229,
+      32991,
+      30257,
+      15854,
+      94580,
+      25282,
+      41399,
+      15710
+    ],
+    "metadata": {
+      "comment_id": 4000117566
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000051"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4870#issuecomment-4000060720",
+    "repo": "python/peps",
+    "type": "pull_request_review_comment",
+    "author": "encukou",
+    "created_at": "2026-03-07T12:32:00Z",
+    "raw_text": "Not ready. The proposed change doesn't work with older versions of pip.",
+    "tokens": [
+      62134,
+      68109,
+      59938,
+      19561,
+      79503,
+      67608,
+      18361,
+      43027,
+      80396,
+      41790,
+      21339,
+      51545,
+      80845,
+      96944,
+      39261,
+      77860,
+      44129,
+      66534,
+      66849,
+      69814,
+      64245,
+      92935,
+      73823,
+      39334,
+      62285,
+      2220
+    ],
+    "metadata": {
+      "comment_id": 4000060720
+    },
+    "stance": "negative"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000012"
+    },
+    "source": "github",
+    "url": "https://github.com/pypa/packaging/pull/4956#discussion_r4000057273",
+    "repo": "pypa/packaging",
+    "type": "pull_request_comment",
+    "author": "dstufft",
+    "created_at": "2026-01-05T15:14:00Z",
+    "raw_text": "This is the right call. Adopting stable ABI wheels here makes total sense.",
+    "tokens": [
+      3141,
+      86551,
+      25353,
+      52267,
+      43065,
+      36557,
+      9139,
+      36625,
+      46065,
+      84120,
+      66808,
+      52426,
+      89105,
+      70322,
+      43444,
+      3657,
+      15158,
+      34277,
+      23445
+    ],
+    "metadata": {
+      "comment_id": 4000057273
+    },
+    "stance": "positive"
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000035"
+    },
+    "source": "github",
+    "url": "https://github.com/python/peps/pull/4910#issuecomment-4000089648",
+    "repo": "python/peps",
+    "type": "issue_comment",
+    "author": "methane",
+    "created_at": "2026-03-06T19:27:00Z",
+    "raw_text": "The performance regression here is unacceptable. We need a better solution.",
+    "tokens": [
+      29989,
+      54279,
+      44464,
+      59481,
+      52302,
+      54564,
+      95671,
+      12503,
+      41006,
+      55976,
+      41003,
+      87217,
+      33448,
+      49100,
+      20046,
+      90063,
+      62203,
+      8839,
+      11997,
+      11228,
+      12259,
+      56646,
+      12696,
+      97634,
+      96875,
+      48883,
+      17094,
+      72964,
+      7901,
+      76909,
+      73648,
+      73660,
+      43247
+    ],
+    "metadata": {
+      "comment_id": 4000089648
+    },
+    "stance": "negative"
+  }
+]
