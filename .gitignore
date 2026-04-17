@@ -1,1 +1,2 @@
 config.json
+models/bert_stance/model.safetensors
